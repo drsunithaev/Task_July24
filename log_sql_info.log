@@ -1,0 +1,610 @@
+[2022-07-30 13:40:57,622: INFO: utils]: NumExpr defaulting to 4 threads.
+[2022-07-30 13:40:58,199: INFO: test2]: Connect to database
+[2022-07-30 13:40:58,220: INFO: test2]: create database
+[2022-07-30 13:44:29,241: INFO: utils]: NumExpr defaulting to 4 threads.
+[2022-07-30 13:44:44,681: INFO: utils]: NumExpr defaulting to 4 threads.
+[2022-07-30 13:44:45,218: INFO: test2]: Connect to database
+[2022-07-30 13:44:45,226: INFO: test2]: create a Table of attribute dataset and dress dataset in mysql workbench/python
+[2022-07-30 13:44:45,226: ERROR: test2]: 1046 (3D000): No database selected
+Traceback (most recent call last):
+  File "C:/Users/sunit/PycharmProjects/Task_July24/test2.py", line 60, in create_tables
+    cursor.execute(query1)
+  File "C:\Users\sunit\Anaconda3\envs\Task_July24_new\lib\site-packages\mysql\connector\cursor.py", line 569, in execute
+    self._handle_result(self._connection.cmd_query(stmt))
+  File "C:\Users\sunit\Anaconda3\envs\Task_July24_new\lib\site-packages\mysql\connector\connection.py", line 590, in cmd_query
+    result = self._handle_result(self._send_cmd(ServerCmd.QUERY, query))
+  File "C:\Users\sunit\Anaconda3\envs\Task_July24_new\lib\site-packages\mysql\connector\connection.py", line 478, in _handle_result
+    raise errors.get_exception(packet)
+mysql.connector.errors.ProgrammingError: 1046 (3D000): No database selected
+[2022-07-30 13:45:12,096: INFO: utils]: NumExpr defaulting to 4 threads.
+[2022-07-30 13:45:12,796: INFO: test2]: Connect to database
+[2022-07-30 13:45:12,810: INFO: test2]: create database
+[2022-07-30 13:45:12,810: ERROR: test2]: 1007 (HY000): Can't create database 'showroom'; database exists
+Traceback (most recent call last):
+  File "C:/Users/sunit/PycharmProjects/Task_July24/test2.py", line 34, in create_db
+    cursor.execute(query1)
+  File "C:\Users\sunit\Anaconda3\envs\Task_July24_new\lib\site-packages\mysql\connector\cursor.py", line 569, in execute
+    self._handle_result(self._connection.cmd_query(stmt))
+  File "C:\Users\sunit\Anaconda3\envs\Task_July24_new\lib\site-packages\mysql\connector\connection.py", line 590, in cmd_query
+    result = self._handle_result(self._send_cmd(ServerCmd.QUERY, query))
+  File "C:\Users\sunit\Anaconda3\envs\Task_July24_new\lib\site-packages\mysql\connector\connection.py", line 478, in _handle_result
+    raise errors.get_exception(packet)
+mysql.connector.errors.DatabaseError: 1007 (HY000): Can't create database 'showroom'; database exists
+[2022-07-30 13:45:12,810: INFO: test2]: create a Table of attribute dataset and dress dataset in mysql workbench/python
+[2022-07-30 13:45:12,810: ERROR: test2]: 1046 (3D000): No database selected
+Traceback (most recent call last):
+  File "C:/Users/sunit/PycharmProjects/Task_July24/test2.py", line 60, in create_tables
+    cursor.execute(query1)
+  File "C:\Users\sunit\Anaconda3\envs\Task_July24_new\lib\site-packages\mysql\connector\cursor.py", line 569, in execute
+    self._handle_result(self._connection.cmd_query(stmt))
+  File "C:\Users\sunit\Anaconda3\envs\Task_July24_new\lib\site-packages\mysql\connector\connection.py", line 590, in cmd_query
+    result = self._handle_result(self._send_cmd(ServerCmd.QUERY, query))
+  File "C:\Users\sunit\Anaconda3\envs\Task_July24_new\lib\site-packages\mysql\connector\connection.py", line 478, in _handle_result
+    raise errors.get_exception(packet)
+mysql.connector.errors.ProgrammingError: 1046 (3D000): No database selected
+[2022-07-30 13:45:28,771: INFO: utils]: NumExpr defaulting to 4 threads.
+[2022-07-30 13:45:29,322: INFO: test2]: Connect to database
+[2022-07-30 13:45:29,338: INFO: test2]: create database
+[2022-07-30 13:45:29,338: ERROR: test2]: 1007 (HY000): Can't create database 'showroom'; database exists
+Traceback (most recent call last):
+  File "C:/Users/sunit/PycharmProjects/Task_July24/test2.py", line 34, in create_db
+    cursor.execute(query1)
+  File "C:\Users\sunit\Anaconda3\envs\Task_July24_new\lib\site-packages\mysql\connector\cursor.py", line 569, in execute
+    self._handle_result(self._connection.cmd_query(stmt))
+  File "C:\Users\sunit\Anaconda3\envs\Task_July24_new\lib\site-packages\mysql\connector\connection.py", line 590, in cmd_query
+    result = self._handle_result(self._send_cmd(ServerCmd.QUERY, query))
+  File "C:\Users\sunit\Anaconda3\envs\Task_July24_new\lib\site-packages\mysql\connector\connection.py", line 478, in _handle_result
+    raise errors.get_exception(packet)
+mysql.connector.errors.DatabaseError: 1007 (HY000): Can't create database 'showroom'; database exists
+[2022-07-30 13:45:29,338: INFO: test2]: create a Table of attribute dataset and dress dataset in mysql workbench/python
+[2022-07-30 13:45:29,338: ERROR: test2]: 1046 (3D000): No database selected
+Traceback (most recent call last):
+  File "C:/Users/sunit/PycharmProjects/Task_July24/test2.py", line 60, in create_tables
+    cursor.execute(query1)
+  File "C:\Users\sunit\Anaconda3\envs\Task_July24_new\lib\site-packages\mysql\connector\cursor.py", line 569, in execute
+    self._handle_result(self._connection.cmd_query(stmt))
+  File "C:\Users\sunit\Anaconda3\envs\Task_July24_new\lib\site-packages\mysql\connector\connection.py", line 590, in cmd_query
+    result = self._handle_result(self._send_cmd(ServerCmd.QUERY, query))
+  File "C:\Users\sunit\Anaconda3\envs\Task_July24_new\lib\site-packages\mysql\connector\connection.py", line 478, in _handle_result
+    raise errors.get_exception(packet)
+mysql.connector.errors.ProgrammingError: 1046 (3D000): No database selected
+[2022-07-30 13:46:19,805: INFO: utils]: NumExpr defaulting to 4 threads.
+[2022-07-30 13:46:20,463: INFO: test2]: Connect to database
+[2022-07-30 13:46:20,476: INFO: test2]: create database
+[2022-07-30 13:46:20,476: ERROR: test2]: 1007 (HY000): Can't create database 'showroom'; database exists
+Traceback (most recent call last):
+  File "C:/Users/sunit/PycharmProjects/Task_July24/test2.py", line 34, in create_db
+    cursor.execute(query1)
+  File "C:\Users\sunit\Anaconda3\envs\Task_July24_new\lib\site-packages\mysql\connector\cursor.py", line 569, in execute
+    self._handle_result(self._connection.cmd_query(stmt))
+  File "C:\Users\sunit\Anaconda3\envs\Task_July24_new\lib\site-packages\mysql\connector\connection.py", line 590, in cmd_query
+    result = self._handle_result(self._send_cmd(ServerCmd.QUERY, query))
+  File "C:\Users\sunit\Anaconda3\envs\Task_July24_new\lib\site-packages\mysql\connector\connection.py", line 478, in _handle_result
+    raise errors.get_exception(packet)
+mysql.connector.errors.DatabaseError: 1007 (HY000): Can't create database 'showroom'; database exists
+[2022-07-30 13:46:20,476: INFO: test2]: create a Table of attribute dataset and dress dataset in mysql workbench/python
+[2022-07-30 13:46:21,592: ERROR: test2]: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''29.8.2013' int, '31.8.2013' int, '2.9.2013' int, '4.9.2013' int,'6.9.2013' int,' at line 1
+Traceback (most recent call last):
+  File "C:/Users/sunit/PycharmProjects/Task_July24/test2.py", line 61, in create_tables
+    cursor.execute(query2)
+  File "C:\Users\sunit\Anaconda3\envs\Task_July24_new\lib\site-packages\mysql\connector\cursor.py", line 569, in execute
+    self._handle_result(self._connection.cmd_query(stmt))
+  File "C:\Users\sunit\Anaconda3\envs\Task_July24_new\lib\site-packages\mysql\connector\connection.py", line 590, in cmd_query
+    result = self._handle_result(self._send_cmd(ServerCmd.QUERY, query))
+  File "C:\Users\sunit\Anaconda3\envs\Task_July24_new\lib\site-packages\mysql\connector\connection.py", line 478, in _handle_result
+    raise errors.get_exception(packet)
+mysql.connector.errors.ProgrammingError: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''29.8.2013' int, '31.8.2013' int, '2.9.2013' int, '4.9.2013' int,'6.9.2013' int,' at line 1
+[2022-07-30 13:48:22,424: INFO: utils]: NumExpr defaulting to 4 threads.
+[2022-07-30 13:48:23,062: INFO: test2]: Connect to database
+[2022-07-30 13:48:23,070: INFO: test2]: create database
+[2022-07-30 13:48:23,078: ERROR: test2]: 1007 (HY000): Can't create database 'showroom'; database exists
+Traceback (most recent call last):
+  File "C:/Users/sunit/PycharmProjects/Task_July24/test2.py", line 34, in create_db
+    cursor.execute(query1)
+  File "C:\Users\sunit\Anaconda3\envs\Task_July24_new\lib\site-packages\mysql\connector\cursor.py", line 569, in execute
+    self._handle_result(self._connection.cmd_query(stmt))
+  File "C:\Users\sunit\Anaconda3\envs\Task_July24_new\lib\site-packages\mysql\connector\connection.py", line 590, in cmd_query
+    result = self._handle_result(self._send_cmd(ServerCmd.QUERY, query))
+  File "C:\Users\sunit\Anaconda3\envs\Task_July24_new\lib\site-packages\mysql\connector\connection.py", line 478, in _handle_result
+    raise errors.get_exception(packet)
+mysql.connector.errors.DatabaseError: 1007 (HY000): Can't create database 'showroom'; database exists
+[2022-07-30 13:48:23,078: INFO: test2]: insert data to table from excel sheet
+[2022-07-30 13:48:23,808: ERROR: test2]: (pymysql.err.DataError) (1406, "Data too long for column 'NeckLine' at row 19")
+[SQL: INSERT INTO attribute_datasets (`Dress_ID`, `Style`, `Price`, `Rating`, `Size`, `Season`, `NeckLine`, `SleeveLength`, waiseline, `Material`, `FabricType`, `Decoration`, `PatternType`, `Recommendation`) VALUES (%(Dress_ID)s, %(Style)s, %(Price)s, %(Rating)s, %(Size)s, %(Season)s, %(NeckLine)s, %(SleeveLength)s, %(waiseline)s, %(Material)s, %(FabricType)s, %(Decoration)s, %(PatternType)s, %(Recommendation)s)]
+[parameters: ({'Dress_ID': 1006032852, 'Style': 'Sexy', 'Price': 'Low', 'Rating': 4.6, 'Size': 'M', 'Season': 'Summer', 'NeckLine': 'o-neck', 'SleeveLength': 'sleevless', 'waiseline': 'empire', 'Material': None, 'FabricType': 'chiffon', 'Decoration': 'ruffles', 'PatternType': 'animal', 'Recommendation': 1}, {'Dress_ID': 1212192089, 'Style': 'Casual', 'Price': 'Low', 'Rating': 0.0, 'Size': 'L', 'Season': 'Summer', 'NeckLine': 'o-neck', 'SleeveLength': 'Petal', 'waiseline': 'natural', 'Material': 'microfiber', 'FabricType': None, 'Decoration': 'ruffles', 'PatternType': 'animal', 'Recommendation': 0}, {'Dress_ID': 1190380701, 'Style': 'vintage', 'Price': 'High', 'Rating': 0.0, 'Size': 'L', 'Season': 'Automn', 'NeckLine': 'o-neck', 'SleeveLength': 'full', 'waiseline': 'natural', 'Material': 'polyster', 'FabricType': None, 'Decoration': None, 'PatternType': 'print', 'Recommendation': 0}, {'Dress_ID': 966005983, 'Style': 'Brief', 'Price': 'Average', 'Rating': 4.6, 'Size': 'L', 'Season': 'Spring', 'NeckLine': 'o-neck', 'SleeveLength': 'full', 'waiseline': 'natural', 'Material': 'silk', 'FabricType': 'chiffon', 'Decoration': 'embroidary', 'PatternType': 'print', 'Recommendation': 1}, {'Dress_ID': 876339541, 'Style': 'cute', 'Price': 'Low', 'Rating': 4.5, 'Size': 'M', 'Season': 'Summer', 'NeckLine': 'o-neck', 'SleeveLength': 'butterfly', 'waiseline': 'natural', 'Material': 'chiffonfabric', 'FabricType': 'chiffon', 'Decoration': 'bow', 'PatternType': 'dot', 'Recommendation': 0}, {'Dress_ID': 1068332458, 'Style': 'bohemian', 'Price': 'Low', 'Rating': 0.0, 'Size': 'M', 'Season': 'Summer', 'NeckLine': 'v-neck', 'SleeveLength': 'sleevless', 'waiseline': 'empire', 'Material': None, 'FabricType': None, 'Decoration': None, 'PatternType': 'print', 'Recommendation': 0}, {'Dress_ID': 1220707172, 'Style': 'Casual', 'Price': 'Average', 'Rating': 0.0, 'Size': 'XL', 'Season': 'Summer', 'NeckLine': 'o-neck', 'SleeveLength': 'full', 'waiseline': None, 'Material': 'cotton', 'FabricType': None, 'Decoration': None, 'PatternType': 'solid', 'Recommendation': 0}, {'Dress_ID': 1219677488, 'Style': 'Novelty', 'Price': 'Average', 'Rating': 0.0, 'Size': 'free', 'Season': 'Automn', 'NeckLine': 'o-neck', 'SleeveLength': 'short', 'waiseline': 'natural', 'Material': 'polyster', 'FabricType': 'broadcloth', 'Decoration': 'lace', 'PatternType': None, 'Recommendation': 0}  ... displaying 10 of 500 total bound parameter sets ...  {'Dress_ID': 655464934, 'Style': 'Casual', 'Price': 'Average', 'Rating': 4.6, 'Size': 'L', 'Season': 'winter', 'NeckLine': 'boat-neck', 'SleeveLength': 'sleevless', 'waiseline': 'empire', 'Material': 'silk', 'FabricType': 'broadcloth', 'Decoration': 'applique', 'PatternType': 'print', 'Recommendation': 1}, {'Dress_ID': 919930954, 'Style': 'Casual', 'Price': 'Low', 'Rating': 4.4, 'Size': 'free', 'Season': 'Summer', 'NeckLine': 'v-neck', 'SleeveLength': 'short', 'waiseline': 'empire', 'Material': 'cotton', 'FabricType': 'Corduroy', 'Decoration': 'lace', 'PatternType': 'solid', 'Recommendation': 0})]
+(Background on this error at: https://sqlalche.me/e/14/9h9h)
+Traceback (most recent call last):
+  File "C:\Users\sunit\Anaconda3\envs\Task_July24_new\lib\site-packages\sqlalchemy\engine\base.py", line 1800, in _execute_context
+    cursor, statement, parameters, context
+  File "C:\Users\sunit\Anaconda3\envs\Task_July24_new\lib\site-packages\sqlalchemy\dialects\mysql\mysqldb.py", line 193, in do_executemany
+    rowcount = cursor.executemany(statement, parameters)
+  File "C:\Users\sunit\Anaconda3\envs\Task_July24_new\lib\site-packages\pymysql\cursors.py", line 179, in executemany
+    self._get_db().encoding,
+  File "C:\Users\sunit\Anaconda3\envs\Task_July24_new\lib\site-packages\pymysql\cursors.py", line 211, in _do_execute_many
+    rows += self.execute(sql + postfix)
+  File "C:\Users\sunit\Anaconda3\envs\Task_July24_new\lib\site-packages\pymysql\cursors.py", line 148, in execute
+    result = self._query(query)
+  File "C:\Users\sunit\Anaconda3\envs\Task_July24_new\lib\site-packages\pymysql\cursors.py", line 310, in _query
+    conn.query(q)
+  File "C:\Users\sunit\Anaconda3\envs\Task_July24_new\lib\site-packages\pymysql\connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\sunit\Anaconda3\envs\Task_July24_new\lib\site-packages\pymysql\connections.py", line 775, in _read_query_result
+    result.read()
+  File "C:\Users\sunit\Anaconda3\envs\Task_July24_new\lib\site-packages\pymysql\connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Users\sunit\Anaconda3\envs\Task_July24_new\lib\site-packages\pymysql\connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\sunit\Anaconda3\envs\Task_July24_new\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\sunit\Anaconda3\envs\Task_July24_new\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.DataError: (1406, "Data too long for column 'NeckLine' at row 19")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:/Users/sunit/PycharmProjects/Task_July24/test2.py", line 85, in insert_table_bulk
+    excel_dataframe.to_sql("attribute_datasets", conn, if_exists="append",index=False)
+  File "C:\Users\sunit\Anaconda3\envs\Task_July24_new\lib\site-packages\pandas\core\generic.py", line 2882, in to_sql
+    method=method,
+  File "C:\Users\sunit\Anaconda3\envs\Task_July24_new\lib\site-packages\pandas\io\sql.py", line 728, in to_sql
+    **engine_kwargs,
+  File "C:\Users\sunit\Anaconda3\envs\Task_July24_new\lib\site-packages\pandas\io\sql.py", line 1770, in to_sql
+    **engine_kwargs,
+  File "C:\Users\sunit\Anaconda3\envs\Task_July24_new\lib\site-packages\pandas\io\sql.py", line 1350, in insert_records
+    raise err
+  File "C:\Users\sunit\Anaconda3\envs\Task_July24_new\lib\site-packages\pandas\io\sql.py", line 1340, in insert_records
+    table.insert(chunksize=chunksize, method=method)
+  File "C:\Users\sunit\Anaconda3\envs\Task_July24_new\lib\site-packages\pandas\io\sql.py", line 967, in insert
+    exec_insert(conn, keys, chunk_iter)
+  File "C:\Users\sunit\Anaconda3\envs\Task_July24_new\lib\site-packages\pandas\io\sql.py", line 882, in _execute_insert
+    conn.execute(self.table.insert(), data)
+  File "C:\Users\sunit\Anaconda3\envs\Task_July24_new\lib\site-packages\sqlalchemy\engine\base.py", line 1306, in execute
+    return meth(self, multiparams, params, _EMPTY_EXECUTION_OPTS)
+  File "C:\Users\sunit\Anaconda3\envs\Task_July24_new\lib\site-packages\sqlalchemy\sql\elements.py", line 333, in _execute_on_connection
+    self, multiparams, params, execution_options
+  File "C:\Users\sunit\Anaconda3\envs\Task_July24_new\lib\site-packages\sqlalchemy\engine\base.py", line 1508, in _execute_clauseelement
+    cache_hit=cache_hit,
+  File "C:\Users\sunit\Anaconda3\envs\Task_July24_new\lib\site-packages\sqlalchemy\engine\base.py", line 1863, in _execute_context
+    e, statement, parameters, cursor, context
+  File "C:\Users\sunit\Anaconda3\envs\Task_July24_new\lib\site-packages\sqlalchemy\engine\base.py", line 2044, in _handle_dbapi_exception
+    sqlalchemy_exception, with_traceback=exc_info[2], from_=e
+  File "C:\Users\sunit\Anaconda3\envs\Task_July24_new\lib\site-packages\sqlalchemy\util\compat.py", line 208, in raise_
+    raise exception
+  File "C:\Users\sunit\Anaconda3\envs\Task_July24_new\lib\site-packages\sqlalchemy\engine\base.py", line 1800, in _execute_context
+    cursor, statement, parameters, context
+  File "C:\Users\sunit\Anaconda3\envs\Task_July24_new\lib\site-packages\sqlalchemy\dialects\mysql\mysqldb.py", line 193, in do_executemany
+    rowcount = cursor.executemany(statement, parameters)
+  File "C:\Users\sunit\Anaconda3\envs\Task_July24_new\lib\site-packages\pymysql\cursors.py", line 179, in executemany
+    self._get_db().encoding,
+  File "C:\Users\sunit\Anaconda3\envs\Task_July24_new\lib\site-packages\pymysql\cursors.py", line 211, in _do_execute_many
+    rows += self.execute(sql + postfix)
+  File "C:\Users\sunit\Anaconda3\envs\Task_July24_new\lib\site-packages\pymysql\cursors.py", line 148, in execute
+    result = self._query(query)
+  File "C:\Users\sunit\Anaconda3\envs\Task_July24_new\lib\site-packages\pymysql\cursors.py", line 310, in _query
+    conn.query(q)
+  File "C:\Users\sunit\Anaconda3\envs\Task_July24_new\lib\site-packages\pymysql\connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\sunit\Anaconda3\envs\Task_July24_new\lib\site-packages\pymysql\connections.py", line 775, in _read_query_result
+    result.read()
+  File "C:\Users\sunit\Anaconda3\envs\Task_July24_new\lib\site-packages\pymysql\connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Users\sunit\Anaconda3\envs\Task_July24_new\lib\site-packages\pymysql\connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\sunit\Anaconda3\envs\Task_July24_new\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\sunit\Anaconda3\envs\Task_July24_new\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+sqlalchemy.exc.DataError: (pymysql.err.DataError) (1406, "Data too long for column 'NeckLine' at row 19")
+[SQL: INSERT INTO attribute_datasets (`Dress_ID`, `Style`, `Price`, `Rating`, `Size`, `Season`, `NeckLine`, `SleeveLength`, waiseline, `Material`, `FabricType`, `Decoration`, `PatternType`, `Recommendation`) VALUES (%(Dress_ID)s, %(Style)s, %(Price)s, %(Rating)s, %(Size)s, %(Season)s, %(NeckLine)s, %(SleeveLength)s, %(waiseline)s, %(Material)s, %(FabricType)s, %(Decoration)s, %(PatternType)s, %(Recommendation)s)]
+[parameters: ({'Dress_ID': 1006032852, 'Style': 'Sexy', 'Price': 'Low', 'Rating': 4.6, 'Size': 'M', 'Season': 'Summer', 'NeckLine': 'o-neck', 'SleeveLength': 'sleevless', 'waiseline': 'empire', 'Material': None, 'FabricType': 'chiffon', 'Decoration': 'ruffles', 'PatternType': 'animal', 'Recommendation': 1}, {'Dress_ID': 1212192089, 'Style': 'Casual', 'Price': 'Low', 'Rating': 0.0, 'Size': 'L', 'Season': 'Summer', 'NeckLine': 'o-neck', 'SleeveLength': 'Petal', 'waiseline': 'natural', 'Material': 'microfiber', 'FabricType': None, 'Decoration': 'ruffles', 'PatternType': 'animal', 'Recommendation': 0}, {'Dress_ID': 1190380701, 'Style': 'vintage', 'Price': 'High', 'Rating': 0.0, 'Size': 'L', 'Season': 'Automn', 'NeckLine': 'o-neck', 'SleeveLength': 'full', 'waiseline': 'natural', 'Material': 'polyster', 'FabricType': None, 'Decoration': None, 'PatternType': 'print', 'Recommendation': 0}, {'Dress_ID': 966005983, 'Style': 'Brief', 'Price': 'Average', 'Rating': 4.6, 'Size': 'L', 'Season': 'Spring', 'NeckLine': 'o-neck', 'SleeveLength': 'full', 'waiseline': 'natural', 'Material': 'silk', 'FabricType': 'chiffon', 'Decoration': 'embroidary', 'PatternType': 'print', 'Recommendation': 1}, {'Dress_ID': 876339541, 'Style': 'cute', 'Price': 'Low', 'Rating': 4.5, 'Size': 'M', 'Season': 'Summer', 'NeckLine': 'o-neck', 'SleeveLength': 'butterfly', 'waiseline': 'natural', 'Material': 'chiffonfabric', 'FabricType': 'chiffon', 'Decoration': 'bow', 'PatternType': 'dot', 'Recommendation': 0}, {'Dress_ID': 1068332458, 'Style': 'bohemian', 'Price': 'Low', 'Rating': 0.0, 'Size': 'M', 'Season': 'Summer', 'NeckLine': 'v-neck', 'SleeveLength': 'sleevless', 'waiseline': 'empire', 'Material': None, 'FabricType': None, 'Decoration': None, 'PatternType': 'print', 'Recommendation': 0}, {'Dress_ID': 1220707172, 'Style': 'Casual', 'Price': 'Average', 'Rating': 0.0, 'Size': 'XL', 'Season': 'Summer', 'NeckLine': 'o-neck', 'SleeveLength': 'full', 'waiseline': None, 'Material': 'cotton', 'FabricType': None, 'Decoration': None, 'PatternType': 'solid', 'Recommendation': 0}, {'Dress_ID': 1219677488, 'Style': 'Novelty', 'Price': 'Average', 'Rating': 0.0, 'Size': 'free', 'Season': 'Automn', 'NeckLine': 'o-neck', 'SleeveLength': 'short', 'waiseline': 'natural', 'Material': 'polyster', 'FabricType': 'broadcloth', 'Decoration': 'lace', 'PatternType': None, 'Recommendation': 0}  ... displaying 10 of 500 total bound parameter sets ...  {'Dress_ID': 655464934, 'Style': 'Casual', 'Price': 'Average', 'Rating': 4.6, 'Size': 'L', 'Season': 'winter', 'NeckLine': 'boat-neck', 'SleeveLength': 'sleevless', 'waiseline': 'empire', 'Material': 'silk', 'FabricType': 'broadcloth', 'Decoration': 'applique', 'PatternType': 'print', 'Recommendation': 1}, {'Dress_ID': 919930954, 'Style': 'Casual', 'Price': 'Low', 'Rating': 4.4, 'Size': 'free', 'Season': 'Summer', 'NeckLine': 'v-neck', 'SleeveLength': 'short', 'waiseline': 'empire', 'Material': 'cotton', 'FabricType': 'Corduroy', 'Decoration': 'lace', 'PatternType': 'solid', 'Recommendation': 0})]
+(Background on this error at: https://sqlalche.me/e/14/9h9h)
+[2022-07-30 13:48:51,042: INFO: utils]: NumExpr defaulting to 4 threads.
+[2022-07-30 13:48:51,651: INFO: test2]: Connect to database
+[2022-07-30 13:48:51,670: INFO: test2]: create database
+[2022-07-30 13:48:51,670: ERROR: test2]: 1007 (HY000): Can't create database 'showroom'; database exists
+Traceback (most recent call last):
+  File "C:/Users/sunit/PycharmProjects/Task_July24/test2.py", line 34, in create_db
+    cursor.execute(query1)
+  File "C:\Users\sunit\Anaconda3\envs\Task_July24_new\lib\site-packages\mysql\connector\cursor.py", line 569, in execute
+    self._handle_result(self._connection.cmd_query(stmt))
+  File "C:\Users\sunit\Anaconda3\envs\Task_July24_new\lib\site-packages\mysql\connector\connection.py", line 590, in cmd_query
+    result = self._handle_result(self._send_cmd(ServerCmd.QUERY, query))
+  File "C:\Users\sunit\Anaconda3\envs\Task_July24_new\lib\site-packages\mysql\connector\connection.py", line 478, in _handle_result
+    raise errors.get_exception(packet)
+mysql.connector.errors.DatabaseError: 1007 (HY000): Can't create database 'showroom'; database exists
+[2022-07-30 13:48:51,670: INFO: test2]: insert data to table from excel sheet
+[2022-07-30 13:49:42,593: INFO: utils]: NumExpr defaulting to 4 threads.
+[2022-07-30 13:49:43,159: INFO: test2]: Read data from the database tables 'attribute_datasets' and 'dress_sales'
+[2022-07-30 13:49:43,295: INFO: test2]: Attribute Data Sets
+
+[2022-07-30 13:49:43,295: INFO: test2]:        Dress_ID    Style    Price  ...  Decoration PatternType Recommendation
+0    1006032852     Sexy      Low  ...     ruffles      animal              1
+1    1212192089   Casual      Low  ...     ruffles      animal              0
+2    1190380701  vintage     High  ...        None       print              0
+3     966005983    Brief  Average  ...  embroidary       print              1
+4     876339541     cute      Low  ...         bow         dot              0
+..          ...      ...      ...  ...         ...         ...            ...
+495   713391965   Casual      Low  ...        None       solid              1
+496   722565148     Sexy      Low  ...        None        None              0
+497   532874347   Casual  Average  ...        lace       solid              1
+498   655464934   Casual  Average  ...    applique       print              1
+499   919930954   Casual      Low  ...        lace       solid              0
+
+[500 rows x 14 columns]
+[2022-07-30 13:49:43,343: INFO: test2]: Dress Sales
+
+[2022-07-30 13:49:43,343: INFO: test2]:        Dress_ID  29.8.2013  31.8.2013  ...  8.10.2013  10.10.2013  12.10.2013
+0    1006032852       2114       2274  ...     3923.0      3985.0        4048
+1    1212192089        151        275  ...     4024.0      4125.0        4277
+2    1190380701          6          7  ...       11.0        11.0          11
+3     966005983       1005       1128  ...     1955.0      1959.0        1963
+4     876339541        996       1175  ...     2614.0      2693.0        2736
+..          ...        ...        ...  ...        ...         ...         ...
+495   713391965          0          0  ...      382.0       384.0         285
+496   722565148          0          0  ...      913.0       919.0         931
+497   532874347          0          0  ...      546.0       535.0         520
+498   655464934          0          0  ...      249.0       249.0         248
+499   919930954          0          0  ...      668.0       674.0         680
+
+[500 rows x 24 columns]
+[2022-07-30 13:50:09,732: INFO: utils]: NumExpr defaulting to 4 threads.
+[2022-07-30 13:50:10,329: INFO: test2]: Left join :> attribute_datasets & dress_sales tables
+[2022-07-30 13:50:10,505: INFO: test2]:        Dress_ID    Style    Price  ...  8.10.2013 10.10.2013 12.10.2013
+0    1006032852     Sexy      Low  ...     3923.0     3985.0       4048
+1    1212192089   Casual      Low  ...     4024.0     4125.0       4277
+2    1190380701  vintage     High  ...       11.0       11.0         11
+3     966005983    Brief  Average  ...     1955.0     1959.0       1963
+4     876339541     cute      Low  ...     2614.0     2693.0       2736
+..          ...      ...      ...  ...        ...        ...        ...
+545   722565148     Sexy      Low  ...        NaN        NaN        931
+546   722565148     Sexy      Low  ...      913.0      919.0        931
+547   532874347   Casual  Average  ...      546.0      535.0        520
+548   655464934   Casual  Average  ...      249.0      249.0        248
+549   919930954   Casual      Low  ...      668.0      674.0        680
+
+[550 rows x 37 columns]
+[2022-07-30 13:50:27,887: INFO: utils]: NumExpr defaulting to 4 threads.
+[2022-07-30 13:50:28,431: INFO: test2]: Unique dress details
+[2022-07-30 13:50:28,491: INFO: test2]: unique dress count (475,)
+[2022-07-30 13:50:43,824: INFO: utils]: NumExpr defaulting to 4 threads.
+[2022-07-30 13:50:44,389: INFO: test2]: Unique dress details
+[2022-07-30 13:50:44,406: INFO: test2]: unique dress count (290,)
+[2022-07-30 13:51:10,444: INFO: utils]: NumExpr defaulting to 4 threads.
+[2022-07-30 13:51:10,994: INFO: test2]: Left join :> attribute_datasets & dress_sales tables
+[2022-07-30 14:04:12,069: INFO: utils]: NumExpr defaulting to 4 threads.
+[2022-07-30 14:04:12,672: INFO: test2]: Left join :> attribute_datasets & dress_sales tables
+[2022-07-30 14:04:12,878: ERROR: test2]: 'DataFrame' object has no attribute 'Sales'
+Traceback (most recent call last):
+  File "C:/Users/sunit/PycharmProjects/Task_July24/test2.py", line 297, in dress_sales_total
+    print(sales_data.Sales.nlargest(3).iloc[-1])
+  File "C:\Users\sunit\Anaconda3\envs\Task_July24_new\lib\site-packages\pandas\core\generic.py", line 5487, in __getattr__
+    return object.__getattribute__(self, name)
+AttributeError: 'DataFrame' object has no attribute 'Sales'
+[2022-07-30 14:05:38,956: INFO: utils]: NumExpr defaulting to 4 threads.
+[2022-07-30 14:05:39,588: INFO: test2]: Left join :> attribute_datasets & dress_sales tables
+[2022-07-30 14:05:39,755: ERROR: test2]: Cannot use method 'nlargest' with dtype object
+Traceback (most recent call last):
+  File "C:/Users/sunit/PycharmProjects/Task_July24/test2.py", line 297, in dress_sales_total
+    print(sales_data.total.nlargest(3).iloc[-1])
+  File "C:\Users\sunit\Anaconda3\envs\Task_July24_new\lib\site-packages\pandas\core\series.py", line 3767, in nlargest
+    return algorithms.SelectNSeries(self, n=n, keep=keep).nlargest()
+  File "C:\Users\sunit\Anaconda3\envs\Task_July24_new\lib\site-packages\pandas\core\algorithms.py", line 1221, in nlargest
+    return self.compute("nlargest")
+  File "C:\Users\sunit\Anaconda3\envs\Task_July24_new\lib\site-packages\pandas\core\algorithms.py", line 1259, in compute
+    raise TypeError(f"Cannot use method '{method}' with dtype {dtype}")
+TypeError: Cannot use method 'nlargest' with dtype object
+[2022-07-30 14:06:00,493: INFO: utils]: NumExpr defaulting to 4 threads.
+[2022-07-30 14:06:01,124: INFO: test2]: Left join :> attribute_datasets & dress_sales tables
+[2022-07-30 14:06:01,301: INFO: test2]: Dress_ID
+444282011      1732.0
+510519284        2888
+511503677     12149.0
+520233308       11041
+522776523        9414
+               ...   
+1246749980       6915
+1246945687     1034.0
+1249825438     1814.0
+1250787559       40.0
+1253973206     2231.0
+Name: total, Length: 475, dtype: object
+[2022-07-30 14:06:01,309: ERROR: test2]: Cannot use method 'nlargest' with dtype object
+Traceback (most recent call last):
+  File "C:/Users/sunit/PycharmProjects/Task_July24/test2.py", line 297, in dress_sales_total
+    print(sales_data.total.nlargest(3).iloc[-1])
+  File "C:\Users\sunit\Anaconda3\envs\Task_July24_new\lib\site-packages\pandas\core\series.py", line 3767, in nlargest
+    return algorithms.SelectNSeries(self, n=n, keep=keep).nlargest()
+  File "C:\Users\sunit\Anaconda3\envs\Task_July24_new\lib\site-packages\pandas\core\algorithms.py", line 1221, in nlargest
+    return self.compute("nlargest")
+  File "C:\Users\sunit\Anaconda3\envs\Task_July24_new\lib\site-packages\pandas\core\algorithms.py", line 1259, in compute
+    raise TypeError(f"Cannot use method '{method}' with dtype {dtype}")
+TypeError: Cannot use method 'nlargest' with dtype object
+[2022-07-30 14:07:33,262: INFO: utils]: NumExpr defaulting to 4 threads.
+[2022-07-30 14:07:33,814: INFO: test2]: Left join :> attribute_datasets & dress_sales tables
+[2022-07-30 14:07:33,965: INFO: test2]: Dress_ID
+444282011      1732.0
+510519284        2888
+511503677     12149.0
+520233308       11041
+522776523        9414
+               ...   
+1246749980       6915
+1246945687     1034.0
+1249825438     1814.0
+1250787559       40.0
+1253973206     2231.0
+Name: total, Length: 475, dtype: object
+[2022-07-30 14:08:04,029: INFO: utils]: NumExpr defaulting to 4 threads.
+[2022-07-30 14:08:04,665: INFO: test2]: Left join :> attribute_datasets & dress_sales tables
+[2022-07-30 14:08:04,821: INFO: test2]: Dress_ID
+444282011      1732.0
+510519284        2888
+511503677     12149.0
+520233308       11041
+522776523        9414
+               ...   
+1246749980       6915
+1246945687     1034.0
+1249825438     1814.0
+1250787559       40.0
+1253973206     2231.0
+Name: total, Length: 475, dtype: object
+[2022-07-30 14:11:48,130: INFO: utils]: NumExpr defaulting to 4 threads.
+[2022-07-30 14:11:48,687: INFO: test2]: Left join :> attribute_datasets & dress_sales tables
+[2022-07-30 14:11:48,834: INFO: test2]: Dress_ID
+444282011      1732.0
+510519284        2888
+511503677     12149.0
+520233308       11041
+522776523        9414
+               ...   
+1246749980       6915
+1246945687     1034.0
+1249825438     1814.0
+1250787559       40.0
+1253973206     2231.0
+Name: total, Length: 475, dtype: object
+[2022-07-30 14:11:48,837: ERROR: test2]: Cannot use method 'nlargest' with dtype object
+Traceback (most recent call last):
+  File "C:/Users/sunit/PycharmProjects/Task_July24/test2.py", line 297, in dress_sales_total
+    print(sales_data.total.nlargest(3).iloc[-1])
+  File "C:\Users\sunit\Anaconda3\envs\Task_July24_new\lib\site-packages\pandas\core\series.py", line 3767, in nlargest
+    return algorithms.SelectNSeries(self, n=n, keep=keep).nlargest()
+  File "C:\Users\sunit\Anaconda3\envs\Task_July24_new\lib\site-packages\pandas\core\algorithms.py", line 1221, in nlargest
+    return self.compute("nlargest")
+  File "C:\Users\sunit\Anaconda3\envs\Task_July24_new\lib\site-packages\pandas\core\algorithms.py", line 1259, in compute
+    raise TypeError(f"Cannot use method '{method}' with dtype {dtype}")
+TypeError: Cannot use method 'nlargest' with dtype object
+[2022-07-30 14:17:51,969: INFO: utils]: NumExpr defaulting to 4 threads.
+[2022-07-30 14:17:52,557: INFO: test2]: Left join :> attribute_datasets & dress_sales tables
+[2022-07-30 14:17:52,711: INFO: test2]: Dress_ID
+444282011      1732.0
+510519284        2888
+511503677     12149.0
+520233308       11041
+522776523        9414
+               ...   
+1246749980       6915
+1246945687     1034.0
+1249825438     1814.0
+1250787559       40.0
+1253973206     2231.0
+Name: total, Length: 475, dtype: object
+[2022-07-30 14:18:52,038: INFO: utils]: NumExpr defaulting to 4 threads.
+[2022-07-30 14:18:52,631: INFO: test2]: Left join :> attribute_datasets & dress_sales tables
+[2022-07-30 14:18:52,787: INFO: test2]: Dress_ID
+444282011      1732.0
+510519284        2888
+511503677     12149.0
+520233308       11041
+522776523        9414
+               ...   
+1246749980       6915
+1246945687     1034.0
+1249825438     1814.0
+1250787559       40.0
+1253973206     2231.0
+Name: total, Length: 475, dtype: object
+[2022-07-30 14:18:52,790: ERROR: test2]: Cannot use method 'nlargest' with dtype object
+Traceback (most recent call last):
+  File "C:/Users/sunit/PycharmProjects/Task_July24/test2.py", line 297, in dress_sales_total
+    print(sales_data.total.nlargest(3).iloc[-1])
+  File "C:\Users\sunit\Anaconda3\envs\Task_July24_new\lib\site-packages\pandas\core\series.py", line 3767, in nlargest
+    return algorithms.SelectNSeries(self, n=n, keep=keep).nlargest()
+  File "C:\Users\sunit\Anaconda3\envs\Task_July24_new\lib\site-packages\pandas\core\algorithms.py", line 1221, in nlargest
+    return self.compute("nlargest")
+  File "C:\Users\sunit\Anaconda3\envs\Task_July24_new\lib\site-packages\pandas\core\algorithms.py", line 1259, in compute
+    raise TypeError(f"Cannot use method '{method}' with dtype {dtype}")
+TypeError: Cannot use method 'nlargest' with dtype object
+[2022-07-30 14:19:02,723: INFO: utils]: NumExpr defaulting to 4 threads.
+[2022-07-30 14:19:03,311: INFO: test2]: Left join :> attribute_datasets & dress_sales tables
+[2022-07-30 14:19:03,461: INFO: test2]: Dress_ID
+444282011      1732.0
+510519284        2888
+511503677     12149.0
+520233308       11041
+522776523        9414
+               ...   
+1246749980       6915
+1246945687     1034.0
+1249825438     1814.0
+1250787559       40.0
+1253973206     2231.0
+Name: total, Length: 475, dtype: object
+[2022-07-30 14:19:03,463: ERROR: test2]: Cannot use method 'nlargest' with dtype object
+Traceback (most recent call last):
+  File "C:/Users/sunit/PycharmProjects/Task_July24/test2.py", line 297, in dress_sales_total
+    print(sales_data.total.nlargest(1).iloc[-1])
+  File "C:\Users\sunit\Anaconda3\envs\Task_July24_new\lib\site-packages\pandas\core\series.py", line 3767, in nlargest
+    return algorithms.SelectNSeries(self, n=n, keep=keep).nlargest()
+  File "C:\Users\sunit\Anaconda3\envs\Task_July24_new\lib\site-packages\pandas\core\algorithms.py", line 1221, in nlargest
+    return self.compute("nlargest")
+  File "C:\Users\sunit\Anaconda3\envs\Task_July24_new\lib\site-packages\pandas\core\algorithms.py", line 1259, in compute
+    raise TypeError(f"Cannot use method '{method}' with dtype {dtype}")
+TypeError: Cannot use method 'nlargest' with dtype object
+[2022-07-30 14:19:14,622: INFO: utils]: NumExpr defaulting to 4 threads.
+[2022-07-30 14:19:15,210: INFO: test2]: Left join :> attribute_datasets & dress_sales tables
+[2022-07-30 14:19:15,364: INFO: test2]: Dress_ID
+444282011      1732.0
+510519284        2888
+511503677     12149.0
+520233308       11041
+522776523        9414
+               ...   
+1246749980       6915
+1246945687     1034.0
+1249825438     1814.0
+1250787559       40.0
+1253973206     2231.0
+Name: total, Length: 475, dtype: object
+[2022-07-30 14:19:15,367: ERROR: test2]: Cannot use method 'nlargest' with dtype object
+Traceback (most recent call last):
+  File "C:/Users/sunit/PycharmProjects/Task_July24/test2.py", line 297, in dress_sales_total
+    print(sales_data.total.nlargest(2).iloc[-1])
+  File "C:\Users\sunit\Anaconda3\envs\Task_July24_new\lib\site-packages\pandas\core\series.py", line 3767, in nlargest
+    return algorithms.SelectNSeries(self, n=n, keep=keep).nlargest()
+  File "C:\Users\sunit\Anaconda3\envs\Task_July24_new\lib\site-packages\pandas\core\algorithms.py", line 1221, in nlargest
+    return self.compute("nlargest")
+  File "C:\Users\sunit\Anaconda3\envs\Task_July24_new\lib\site-packages\pandas\core\algorithms.py", line 1259, in compute
+    raise TypeError(f"Cannot use method '{method}' with dtype {dtype}")
+TypeError: Cannot use method 'nlargest' with dtype object
+[2022-07-30 14:19:42,953: INFO: utils]: NumExpr defaulting to 4 threads.
+[2022-07-30 14:19:43,535: INFO: test2]: Left join :> attribute_datasets & dress_sales tables
+[2022-07-30 14:19:43,704: INFO: test2]: Dress_ID
+444282011      1732.0
+510519284        2888
+511503677     12149.0
+520233308       11041
+522776523        9414
+               ...   
+1246749980       6915
+1246945687     1034.0
+1249825438     1814.0
+1250787559       40.0
+1253973206     2231.0
+Name: total, Length: 475, dtype: object
+[2022-07-30 14:20:12,289: INFO: utils]: NumExpr defaulting to 4 threads.
+[2022-07-30 14:20:12,844: INFO: test2]: Left join :> attribute_datasets & dress_sales tables
+[2022-07-30 14:20:13,048: INFO: test2]: Dress_ID
+444282011      1732.0
+510519284        2888
+511503677     12149.0
+520233308       11041
+522776523        9414
+               ...   
+1246749980       6915
+1246945687     1034.0
+1249825438     1814.0
+1250787559       40.0
+1253973206     2231.0
+Name: total, Length: 475, dtype: object
+[2022-07-30 14:20:13,051: ERROR: test2]: 'Series' object has no attribute 'largest'
+Traceback (most recent call last):
+  File "C:/Users/sunit/PycharmProjects/Task_July24/test2.py", line 298, in dress_sales_total
+    print(sales_data.total.largest())
+  File "C:\Users\sunit\Anaconda3\envs\Task_July24_new\lib\site-packages\pandas\core\generic.py", line 5487, in __getattr__
+    return object.__getattribute__(self, name)
+AttributeError: 'Series' object has no attribute 'largest'
+[2022-07-30 14:23:01,871: INFO: utils]: NumExpr defaulting to 4 threads.
+[2022-07-30 14:23:02,429: INFO: test2]: Left join :> attribute_datasets & dress_sales tables
+[2022-07-30 14:23:02,585: INFO: test2]: Dress_ID
+444282011      1732.0
+510519284        2888
+511503677     12149.0
+520233308       11041
+522776523        9414
+               ...   
+1246749980       6915
+1246945687     1034.0
+1249825438     1814.0
+1250787559       40.0
+1253973206     2231.0
+Name: total, Length: 475, dtype: object
+[2022-07-30 14:23:02,588: ERROR: test2]: Cannot use method 'nlargest' with dtype object
+Traceback (most recent call last):
+  File "C:/Users/sunit/PycharmProjects/Task_July24/test2.py", line 298, in dress_sales_total
+    print(sales_data.total.nlargest(3))
+  File "C:\Users\sunit\Anaconda3\envs\Task_July24_new\lib\site-packages\pandas\core\series.py", line 3767, in nlargest
+    return algorithms.SelectNSeries(self, n=n, keep=keep).nlargest()
+  File "C:\Users\sunit\Anaconda3\envs\Task_July24_new\lib\site-packages\pandas\core\algorithms.py", line 1221, in nlargest
+    return self.compute("nlargest")
+  File "C:\Users\sunit\Anaconda3\envs\Task_July24_new\lib\site-packages\pandas\core\algorithms.py", line 1259, in compute
+    raise TypeError(f"Cannot use method '{method}' with dtype {dtype}")
+TypeError: Cannot use method 'nlargest' with dtype object
+[2022-07-30 14:23:52,858: INFO: utils]: NumExpr defaulting to 4 threads.
+[2022-07-30 14:23:53,429: INFO: test2]: Left join :> attribute_datasets & dress_sales tables
+[2022-07-30 14:23:53,636: INFO: test2]: Dress_ID
+444282011      1732.0
+510519284        2888
+511503677     12149.0
+520233308       11041
+522776523        9414
+               ...   
+1246749980       6915
+1246945687     1034.0
+1249825438     1814.0
+1250787559       40.0
+1253973206     2231.0
+Name: total, Length: 475, dtype: object
+[2022-07-30 14:23:53,639: ERROR: test2]: name 'dtype' is not defined
+Traceback (most recent call last):
+  File "C:/Users/sunit/PycharmProjects/Task_July24/test2.py", line 298, in dress_sales_total
+    print(dtype(sales_data.total))
+NameError: name 'dtype' is not defined
+[2022-07-30 14:24:03,029: INFO: utils]: NumExpr defaulting to 4 threads.
+[2022-07-30 14:24:03,606: INFO: test2]: Left join :> attribute_datasets & dress_sales tables
+[2022-07-30 14:24:03,816: INFO: test2]: Dress_ID
+444282011      1732.0
+510519284        2888
+511503677     12149.0
+520233308       11041
+522776523        9414
+               ...   
+1246749980       6915
+1246945687     1034.0
+1249825438     1814.0
+1250787559       40.0
+1253973206     2231.0
+Name: total, Length: 475, dtype: object
+[2022-07-30 14:24:42,616: INFO: utils]: NumExpr defaulting to 4 threads.
+[2022-07-30 14:24:43,174: INFO: test2]: Left join :> attribute_datasets & dress_sales tables
+[2022-07-30 14:24:43,354: INFO: test2]: Dress_ID
+444282011      1732.0
+510519284        2888
+511503677     12149.0
+520233308       11041
+522776523        9414
+               ...   
+1246749980       6915
+1246945687     1034.0
+1249825438     1814.0
+1250787559       40.0
+1253973206     2231.0
+Name: total, Length: 475, dtype: object
+[2022-07-30 14:25:27,631: INFO: utils]: NumExpr defaulting to 4 threads.
+[2022-07-30 14:25:28,193: INFO: test2]: Left join :> attribute_datasets & dress_sales tables
+[2022-07-30 14:25:28,372: INFO: test2]: Dress_ID
+444282011      1732.0
+510519284        2888
+511503677     12149.0
+520233308       11041
+522776523        9414
+               ...   
+1246749980       6915
+1246945687     1034.0
+1249825438     1814.0
+1250787559       40.0
+1253973206     2231.0
+Name: total, Length: 475, dtype: object
+[2022-07-30 14:25:28,374: ERROR: test2]: Cannot use method 'nlargest' with dtype object
+Traceback (most recent call last):
+  File "C:/Users/sunit/PycharmProjects/Task_July24/test2.py", line 299, in dress_sales_total
+    l = s.nlargest(3)
+  File "C:\Users\sunit\Anaconda3\envs\Task_July24_new\lib\site-packages\pandas\core\series.py", line 3767, in nlargest
+    return algorithms.SelectNSeries(self, n=n, keep=keep).nlargest()
+  File "C:\Users\sunit\Anaconda3\envs\Task_July24_new\lib\site-packages\pandas\core\algorithms.py", line 1221, in nlargest
+    return self.compute("nlargest")
+  File "C:\Users\sunit\Anaconda3\envs\Task_July24_new\lib\site-packages\pandas\core\algorithms.py", line 1259, in compute
+    raise TypeError(f"Cannot use method '{method}' with dtype {dtype}")
+TypeError: Cannot use method 'nlargest' with dtype object
