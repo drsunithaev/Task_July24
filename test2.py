@@ -162,7 +162,7 @@ def store_json_mongo():
 
         logging.info("Connecting to MongoDB server")
         client = pymongo.MongoClient(
-            "mongodb+srv://sunitha:root@cluster0.hilt2da.mongodb.net/?retryWrites=true&w=majority")
+            "mongodb")
         db = client.test
         logging.info("Create DB showroom")
         # create a databse 'showroom'
